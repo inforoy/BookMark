@@ -2,7 +2,9 @@
     "use strict";
 
     angular.module('Bookmarks',[
+
         //dependencies here
+
     ])
 
     .controller('MainController',function($scope){

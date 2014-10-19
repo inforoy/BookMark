@@ -49,7 +49,6 @@
         }
         
         $scope.remove = function(id){
-            alert("acaba de remover un item");
             for(var i=0,len=$scope.bookmarks.length;i<len;i++){
                 if($scope.bookmarks[i].id === id){
                     $scope.bookmarks.splice(i,1);
